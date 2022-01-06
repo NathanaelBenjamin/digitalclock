@@ -5,7 +5,6 @@ let imageIndex = 0;
 
 function slideShow( ){
     imgVar.setAttribute('src', imageArray[imageIndex]);
-    alert('Done!');
     imageIndex++;
 
     if(imageIndex >= imageArray.length){
