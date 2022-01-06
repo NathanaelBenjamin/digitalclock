@@ -12,7 +12,7 @@ function slideShow( ){
     }
 }
 
-setInterval(slideShow, 5000);
+setInterval(slideShow, 4000);
 
 //DATE
 const clock = document.querySelector('.clock');
@@ -73,8 +73,17 @@ function getTimeAndDate( ){
 
     else if(realhour > 12){
         realhour = realhour - 12;
-        hour.innerText = ` 0${realhour} `;
-        frequency.innerHTML = 'PM' ;
+
+        realhour = realhour.toString( );
+
+        if(realhour.length == 2){
+            hour.innerText = realhour;
+            frequency.innerHTML = 'PM' ;
+        }
+        else{
+            hour.innerText = ` 0${realhour} `;
+            frequency.innerHTML = 'PM' ;
+        }
     }
 
     if(date.getMinutes( ) < 10){
