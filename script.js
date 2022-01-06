@@ -1,5 +1,5 @@
 const imgVar = document.querySelector('#img');
-let imageArray = ['../Images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg', '../Images/brian-erickson-JzZ8MofTlQw-unsplash.jpg', '../Images/domenico-loia-EhTcC9sYXsw-unsplash.jpg', '../Images/Guitar.jpg', '../Images/trinity-nguyen-_yMRmwr2OY8-unsplash.jpg'];
+let imageArray = ['arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg', 'brian-erickson-JzZ8MofTlQw-unsplash.jpg', 'domenico-loia-EhTcC9sYXsw-unsplash.jpg', 'Guitar.jpg', 'trinity-nguyen-_yMRmwr2OY8-unsplash.jpg'];
 
 let imageIndex = 0;
 
