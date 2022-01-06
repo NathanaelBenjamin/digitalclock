@@ -13,7 +13,7 @@ function slideShow( ){
     }
 }
 
-//setInterval(slideShow, 5000);
+setInterval(slideShow, 5000);
 
 //DATE
 const clock = document.querySelector('.clock');
